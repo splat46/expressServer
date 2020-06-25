@@ -33,7 +33,7 @@ app.get (
     }
 );
 
-// Get homepage
+// Get about
 app.get(
     '/about/:message', // declares a parameter named name
     (request, response) => { // handler callback
